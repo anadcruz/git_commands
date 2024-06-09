@@ -1,0 +1,29 @@
+
+rm -rf .git   //exclui todo o repositorio git
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+git restore nomeArquivo  // para voltar na ultima versao salva do arquivo, restaura e exclui todas as alterações feitas localmente
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+git commit --amend -m"nova mensagem"  //mudando a mensagem do ultimo commit feito
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+git log //mostra o ultimo commit e seu rest
+git reset --mixed restdoCommit // pega os arquivos posteriores do commit que identificamos pelo rest e adicionou a arvore de trabalho,untrackfiles
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+git reset --hard restDoCommit // ignora totalmente os arquivos feitos anterior 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+git reflog //mostra o histórico de todos os commits realizados
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+git reset caminhoArquivo // remove o arquivo selecionado ou git restore --staged caminhoDoArquivo
+
+
+  
