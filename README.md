@@ -5,7 +5,7 @@ Repósitório para armazenar resumos sobre Git e GitHub
 
 ##📚 Documentação 
 
--[Documentação Github](https://docs.github.com/)
+- [Documentação Github](https://docs.github.com/)
 
 ##💻 Resumos 
 
